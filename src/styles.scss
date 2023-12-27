@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: url( 'https://img.freepik.com/vetores-gratis/fundo-pastel-aquarela-abstrato_87374-139.jpg?w=996&t=st=1703715369~exp=1703715969~hmac=af9ed44e7e87fe6506794b5b6c9faf6daa07588e56aa21234637e51f3510c2b6');
+  background-size: cover;
+}
+
+:root {
+  font-size: 85%;
+  --azul-primario: #0e5b85;
+  --azul-secundario: #0a4565;
+  --azul-action: rgba(53, 102, 166, .35);
+  --branco: #fff;
+  --cinza: #d0d0d0;
+  --preto: #282828;
+  --sucesso: #1ADB70;
+  --erro: #db2a1a;
+  --cuidado: #eaba00;
+  --border-radius: 14px;
+}
+
+.input45{
+  width: 45rem;
+}

@@ -1,0 +1,191 @@
+::ng-deep .p-datatable .p-datatable-header {
+  background: linear-gradient(to right, #0E5B85, rgb(17, 38, 118)) rgb(255, 255, 255) !important;
+  color: #343a40;
+  border-radius: 14px 14px 0 0;
+  padding: 8px 10px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+::ng-deep .p-datatable{
+  text-align: right;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+}
+
+.titulo{
+  color: white;
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+}
+
+::ng-deep .botaoNovo{
+  color: white;
+  border: 1px solid white;
+  width: 100px;
+  height: 32px;
+  list-style: none;
+  border-radius: 5px !important;
+  background-color: transparent;
+  transition: all ease-in-out 0.2s;
+}
+
+::ng-deep .botaoNovo:hover{
+  color: var(--azul-primario);
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+}
+
+::ng-deep .p-datatable>.p-datatable-wrapper {
+  overflow: hidden;
+}
+
+::ng-deep .p-paginator{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.paddingL{
+  padding: 0 0 0 10px;
+}
+
+.botaoIcone{
+  margin: 0 10px;
+  border-radius: 14px;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: transparent;
+}
+
+.blue{
+  @extend .botaoIcone;
+  color: var(--azul-primario);
+}
+
+.warning{
+  @extend .botaoIcone;
+  color: red;
+}
+
+.blue:hover{
+  @extend .botaoIcone;
+  background-color: var(--azul-primario);
+  color: white;
+}
+
+.warning:hover{
+  @extend .botaoIcone;
+  background-color: red;
+  color: white;
+}
+
+::ng-deep .cdk-overlay-container {
+  position: fixed;
+  z-index: 2000;
+}
+
+::ng-deep .p-dialog .p-dialog-header {
+  background: linear-gradient(to right, #0E5B85, rgb(17, 38, 118)) rgb(255, 255, 255) !important;
+  color: white;
+  padding: 2px 5px;
+}
+
+::ng-deep .p-dialog .p-dialog-content {
+  overflow: hidden;
+  padding: 10px !important;
+}
+
+::ng-deep .p-dialog .p-dialog-footer {
+  padding: 5px 10px !important;
+}
+
+::ng-deep .p-dialog .p-dialog-header .p-dialog-header-icon {
+  color: #ffffff;
+}
+
+::ng-deep .p-dialog .p-dialog-header .p-dialog-header-icon:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+.class {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 5px;
+}
+
+.cancelar{
+  @extend .class;
+  color: red;
+}
+
+.salvar{
+  @extend .class;
+  color: var(--azul-primario);
+}
+
+.cancelar:hover{
+  @extend .class;
+  background-color: red;
+  color: white;
+}
+
+.salvar:hover{
+  @extend .class;
+  background-color: var(--azul-primario);
+  color: white;
+}
+
+::ng-deep .p-dialog .p-dialog-footer button{
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  padding: 0 5px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 5px;
+}
+
+::ng-deep .p-confirm-dialog-accept{
+  color: var(--azul-primario);
+
+  .p-button:focus {
+    box-shadow: transparent !important;
+  }
+}
+
+::ng-deep .p-confirm-dialog-accept:hover{
+  background-color: var(--azul-primario) !important;
+  color: white !important;
+}
+
+::ng-deep .p-confirm-dialog-reject {
+  color: red;
+}
+
+::ng-deep .p-confirm-dialog-reject:hover{
+  background-color: red !important;
+  color: white !important;
+}
+
+::ng-deep .p-button:focus {
+  box-shadow: transparent !important;
+}
+
+.allCenter{
+  justify-content: center;
+  display: flex;
+}
+
+.m-top{
+  margin-top: 50px;
+}
